@@ -1,0 +1,207 @@
+/*-- General Elements --*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+
+button {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*-- General Classes --*/
+.big-heading {
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #FFF;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/*-- Navbar --*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Ubuntu';
+  font-weight: lighter;
+}
+
+/*-- Buttoms download --*/
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/*-- Title --*/
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*-- title image --*/
+.title-image {
+  position: absolute;
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+.title-image-container {
+  height: 500px;
+}
+
+
+/*-- Features --*/
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+/*-- icons --*/
+.feature-box {
+
+  padding: 5%;
+}
+
+.icons-title {
+  font-size: 1.5rem;
+  font-family: 'Lato';
+  font-weight: 900;
+  padding-top: 1rem;
+}
+
+.icons-text {
+  color: #8f8f8f;
+}
+
+.icon-vector {
+  color: #ef8172;
+}
+
+.icon-vector:hover {
+  color: #ff4c68;
+}
+
+/* --- Testimonials --- */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.image-testimonials {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonials-text {
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+#press {
+
+  background-color: #ef8172;
+  padding-bottom: 3%
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* --- Pricing --- */
+#pricing {
+  padding: 100px;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+.pricing-heading{
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+.princing-title-box{
+    size: 1.5rem;
+}
+
+
+/* --- CTA --- */
+
+.cta-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+  vertical-align: middle;
+  color: #fff;
+  padding: 80px 20px 20px;
+}
+
+.cta-download-button {
+  margin: 2% 3% 5% 0%;
+}
+
+/* --- Footer --- */
+
+
+.icons-vector {
+  padding: 40px 20px;
+}
+
+/* --- media queries --- */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .title-image-container {
+    height: 700px;
+  }
+}
