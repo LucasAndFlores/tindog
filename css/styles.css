@@ -77,14 +77,13 @@ button {
 }
 
 .title-image-container {
-  height: 500px;
+  padding: 3% 15% 7%;
 }
 
 
 /*-- Features --*/
 #features {
   position: relative;
-  z-index: 1;
 }
 
 /*-- icons --*/
